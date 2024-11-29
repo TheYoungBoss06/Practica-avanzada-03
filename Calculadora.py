@@ -100,4 +100,17 @@ def calcular_resto(resultado):
             return resultado
         
 
+def menu():
+    print('\n  ---------------------------------- MENU ---------------------------------------\n')
+    print(' <                       1: Seleccione para sumar:                                > ')
+    print(' <                       2: Seleccione para restar:                               > ')
+    print(' <                       3: Seleccione para dividir:                              > ')
+    print(' <                       4: Seleccione para Multiplicar:                          > ')
+    print(' <                       5: Seleccione para Encontrar  porciento:                 > ')
+    print(' <                       6: Seleccione para Encontrar el resto de una división:   > ')
+    print(' <                       7: Seleccione para Calcular el numero entero:            > ')
+    print(' <                       8: Seleccione para Encontrar el numero primo:            > ')
+    print(' <                          Escribe Salir, Para cerrar el programa:               > ')
+    print('__________________________________________________________________________________\n')
+    
     
