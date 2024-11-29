@@ -47,3 +47,21 @@ def calcular_dividir(resultado):
             print('Por favor, Introduce numero valido: \n')
             return resultado
         
+
+def calcular_multiplicar(resultado):
+
+    while True:
+        try:
+            resta1 = int(input('Introduce el primer numero: '))
+            resta2 = int(input('Introduce el segundo numero: '))
+            resultado = resta1 * resta2
+            if resta1 and resta2:
+                print(f'El resultado de la Multiplicacion es: {resultado}:\n ')
+            else:
+                break
+            
+        except ValueError:
+            print('Por favor, Introduce numero valido: \n')
+            return resultado
+        
+        
