@@ -114,3 +114,31 @@ def menu():
     print('__________________________________________________________________________________\n')
     
     
+def principal():
+    sumar_menu = []
+    
+    while True:
+        menu()
+        menus = input('Seleccione una de las siguientes opciones [1, 2, 3] o Salir: \n para otra operacion escribir [Salir]: ')
+        if menus == '1':
+            sumar_menu = calcular_suma(resultado)
+        elif menus == '2':
+            sumar_menu = calcular_resta(resultado)
+        elif menus == '3':
+            sumar_menu = calcular_dividir(resultado)
+        elif menus == '4':
+            sumar_menu = calcular_multiplicar(resultado)
+        elif menus == '5':
+            sumar_menu = calcular_porciento(resultado)
+        elif menus == '6':
+            sumar_menu = calcular_resto(resultado)
+        # elif menus == '7':
+        #     sumar_menu = calcular_entero(resultado)
+        # elif menus == '8':
+        #     sumar_menu = calcular_primo(resultado)
+        elif menus == 'salir' or menus == 'Salir' or menus == 'SALIR': 
+            print( 'Saliendo del programa...')
+            break
+        else:
+            print('Eleccion no valida Por favor elige 1, 2, 3, o Salir: \n' )
+ 
