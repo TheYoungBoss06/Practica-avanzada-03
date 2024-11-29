@@ -65,3 +65,20 @@ def calcular_multiplicar(resultado):
             return resultado
         
         
+
+def calcular_porciento(resultado):
+
+    while True:
+        try:
+            porsiento1 = int(input('Introduce el primer numero: '))
+            porsiento2 = int(input('Introduce el porcentaje:: '))
+            resultado = (porsiento2 / 100)* porsiento1 
+            if porsiento1 and porsiento2:
+                print(f'El porciento del un numero es: {resultado}:\n ')
+            else:
+                break
+            
+        except ValueError:
+            print('Por favor, Introduce numero valido: \n')
+            return resultado
+        
