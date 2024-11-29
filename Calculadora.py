@@ -82,3 +82,22 @@ def calcular_porciento(resultado):
             print('Por favor, Introduce numero valido: \n')
             return resultado
         
+
+def calcular_resto(resultado):
+
+    while True:
+        try:
+            resto1 = int(input('Introduce el primer numero: '))
+            resto2 = int(input('Introduce el segundo numero: '))
+            resultado = resto1 % resto2
+            if resto1 and resto2:
+                print(f'El resto de la division es: {resultado}:\n ')
+            else:
+                break
+            
+        except ValueError:
+            print('Por favor, Introduce numero valido: \n')
+            return resultado
+        
+
+    
